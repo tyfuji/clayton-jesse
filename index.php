@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+
 		<title>White Lotus is a Rapper</title>
+
+		<meta charset="UTF-8">
+		
 		<style>
 
 			body {
@@ -409,7 +413,7 @@
 			<ul class="segment-5 title__list">
 				<li><a href="#">White Lotus</a> <small>Rap</small></li>
 				<li><a href="#">Clemence</a> <small>Experimental</small></li>
-				<li><a href="#">Jolean</a> <small>Don’t know</small></li>
+				<li><a href="#">Jolean</a> <small>Beats</small></li>
 			</ul>
 		</div>
 
