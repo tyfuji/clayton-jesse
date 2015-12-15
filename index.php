@@ -35,6 +35,24 @@
 				bottom: 24px;
 				left: 24px;
 			}
+
+			.video-bg a.video-bg__link {
+				position: absolute;
+				z-index: 1;
+				bottom: 96px;
+				right: 16px;
+				font-family: Courier;
+				font-size: 16px;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				text-decoration: underline;
+				color: #1662b8;
+			}
+
+			.video-bg a.video-bg__link:hover {
+				color: #093f7d;
+			}
+
 			.video-bg video {
 				position: absolute;
 				left: 50%;
@@ -51,11 +69,12 @@
 			}
 
 			.logo {
-				width: 80px;
+				width: 300px;
 				height: auto;
 				position: absolute;
-				top: 32px;
-				left: 12px;
+				top: 16px;
+				left: 50%;
+				margin-left: -150px;
 				z-index: 1;
 			}
 
@@ -264,23 +283,23 @@
 				}
 
 				.title .segment-1 {
-					left: -20%;
+					left: -40%;
 				}
 
 				.title .segment-2 {
-					left: 75%;
+					left: 55%;
 				}
 
 				.title .segment-3 {
 					font-size: 42px;
-					left: 35%;
+					left: 15%;
 					top: 42%;
 				}
 
 				.title .segment-4 {
 					font-size: 72px;
 					top: 55%;
-					right: -10%;
+					right: 10%;
 				}
 
 				.title .segment-5 {
@@ -327,7 +346,7 @@
 			@media (min-width: 800px) {
 				.title .title__list {
 					width: 320px;
-					font-size: 24px;
+					font-size: 32px;
 				}
 			}
 		</style>
@@ -388,7 +407,7 @@
 			c0.5,0.8,3.9,0.8,5.1-0.1C218.8,51.2,221.4,48.5,225.1,45.3z"/>
 		</svg>
 
-		<nav class="page-nav">
+		<!--<nav class="page-nav">
 			<ul>
 				<li>
 					<a href="#">Twitter</a>
@@ -403,7 +422,7 @@
 					<a href="#">Purchase Album</a>
 				</li>
 			</ul>
-		</nav>
+		</nav>-->
 
 		<div class="title">
 			<h1 class="segment-1">Clayton </h1>
@@ -485,7 +504,8 @@
 		</a>
 
 		<div class="video-bg">
-			<video autoplay loop>
+			<a class="video-bg__link" href="#">Watch on Youtube</a>
+			<video autoplay loop muted>
 				<source src="/assets/video/calling.mp4" type="video/mp4">
 			</video>
 		</div>
